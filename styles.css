@@ -10,3 +10,9 @@ a {
 img {
     width: 300px;
 }
+.bigger {
+    font-size: 2em;
+}
+#main-topic {
+    color: black
+}
