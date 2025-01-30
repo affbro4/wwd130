@@ -41,9 +41,8 @@ img {
 p {
     padding: 20px;
     line-height: .5em;
-    width: 1400px;
-    margin: 0;
-    text-align: center;
+    width: 800px;
+    margin: 0 auto;
 }
 #main-topic {
     color: blue

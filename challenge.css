@@ -1,0 +1,49 @@
+h1:hover {
+    color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+p {
+    color: white;
+    font-size: 10px;
+    width: 300px;
+    text-align: center;
+    padding-left: 200px;
+    
+}
+#content {
+    max-width: 800px;
+    background-color: #5CA1D7;
+    margin: 0 auto;
+    
+}
+ol  {
+    width: 500;
+    margin: 0 auto;
+    
+}
+img {
+    width: 200px;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+}
+#quote {
+    color: white;
+    font-size: 40px;
+    margin: 0 auto;
+    padding: 50px;
+}
+footer {
+    line-height: .5em;
+    padding: 10px;
+    font-size: 11px;
+    color: black;
+}
