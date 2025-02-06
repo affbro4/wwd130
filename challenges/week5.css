@@ -1,0 +1,41 @@
+#content {
+    max-width: 1000px;
+    background-color: #737373;
+    margin: 0 auto;
+
+}
+body {
+    background-color: white;
+    margin: 0 auto;
+    padding: 0 0;   
+   
+}
+#img_text {
+    width: 100%;
+
+
+}
+#pics {
+    text-align: center;
+}
+#desk { 
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid #444444;
+    margin: 30px;
+}
+#graphic {
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid #444444;
+    margin: 30px;
+}
+#person {
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid #444444;
+    margin: 30px;
+}
+
+
+
