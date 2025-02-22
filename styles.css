@@ -23,6 +23,7 @@ nav a {
     font-size: 20px;
     text-decoration: none;
     margin: 15px;
+    display: flexbox;
 }
 nav a:hover {
     background-color: lightblue;
@@ -38,9 +39,15 @@ img {
     display: block;
     margin: 50px auto;    
     border: 4px solid steelblue;
-    padding: 10px 50px 0 30px;
     box-sizing: border-box;
     border-radius: 50%;
+    transition: .5s;
+    box-shadow: 5px 5px 20px black;
+
+}
+img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 p {
     background-color: lightblue;
