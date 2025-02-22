@@ -1,0 +1,15 @@
+#content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: gray;
+}
+#background {
+    background-color: gray;
+}
+#tart {
+    font-size: 200px;
+    grid-column: 1/3;
+}
+#cherries {
+    color: red;
+}
