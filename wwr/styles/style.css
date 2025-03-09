@@ -190,6 +190,39 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+#salmon-river {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#salmon-img {
+    width: 100%;
+    margin:50px 50px 50px 50px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 50px auto;
+}
+#txt-salmon {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    text-align: justify;
+    margin: 50px 50px 50px 50px;
+
+
+}
+#rapid-salmon-img { 
+    width: 100%;
+    margin: 50px auto;
+    grid-column: 2/3;
+grid-row: 2/3;
+
+}
+#txt-salmon-rapids{
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+margin: 50px 50px 50px 50px;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
