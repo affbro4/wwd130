@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip Card</title>
+    <style>
+            .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    }
+
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    }
+
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    }
+
+    /* Position the front and back side */
+        .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+        }
+
+    /* Style the front side (fallback if image is missing) */
+    .flip-card-front {
+        background-color: #bbb;
+        color: black;
+        }
+
+    /* Style the back side */
+        .flip-card-back {
+        background-color: gray;
+        color: white;
+        transform: rotateY(180deg);
+        padding-top: 20px;
+        padding-bottom: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="russell_nelson_official_portrait_2018.jpeg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>President Nelson</h1>
+            <p>Amazing </p>
+            <p>We love him</p>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
