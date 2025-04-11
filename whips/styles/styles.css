@@ -10,6 +10,12 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+#logolink {
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: -100px;
+}
 #logo {
     width: 80px;
     height: 80px;
